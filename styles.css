@@ -11,10 +11,11 @@
     align-items: center;
 }
 
-.box-foto img {
+.box-foto {
     width: 260px;
     height: 380px;
-    object-fit: fill;
+    background: url("bcface.png");
+    background-size: contain;
     border-radius: 10px 0px 0px 10px;
 }
 
