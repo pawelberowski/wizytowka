@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-.box-foto {
+.box-photo {
     width: 260px;
     height: 380px;
     background: url("bcface.png");
@@ -24,9 +24,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
 }
 
 .box-top {
+    justify-content: center;
+    align-items: flex-start;
     width: 383px;
     height: 190px;
 
@@ -34,11 +39,98 @@
     border-radius: 0px 10px 0px 0px;
 }
 
+.box-top p.first-name {
+    width: 125px;
+    height: 29px;
+    margin-left: 19px;
+
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.box-top p.last-name {
+    width: 147px;
+    height: 35px;
+    margin-left: 19px;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.box-top p.occupation {
+    width: 157px;
+    height: 29px;
+
+    margin-left: 19px;
+    margin-top: 14px;
+
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #6487A2;
+}
+
 .box-bottom {
     width: 383px;
     height: 190px;
-    top: 190px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
 
     background: #2B3944;
     border-radius: 0px 0px 10px 0px;
+}
+
+.frame {
+    width: 363px;
+    height: 132px;
+    margin-left: 20px;
+    margin-top: -50px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px;
+    gap: 24px;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 363px;
+    height: 28px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 363px;
+    height: 28px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 363px;
+    height: 28px;
 }
