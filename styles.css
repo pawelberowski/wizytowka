@@ -102,36 +102,10 @@
     gap: 24px;
 }
 
-.address {
+.frame > * {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
-
-    width: 363px;
-    height: 28px;
-}
-
-.mail {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
-
-    width: 363px;
-    height: 28px;
-}
-
-.phone {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
-
-    width: 363px;
     height: 28px;
 }
 
@@ -144,6 +118,4 @@
     margin-left: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, .4);
     width: 100%;
-
-
 }
