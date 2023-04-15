@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .box-card {
     display: flex;
@@ -49,6 +50,7 @@
 }
 
 .name .first-name {
+    text-transform: capitalize;
     margin: 0;
     font-weight: 400;
     font-size: 25px;
@@ -56,6 +58,7 @@
 }
 
 .name .last-name {
+    text-transform: uppercase;
     margin: 0;
     font-weight: 500;
     font-size: 30px;
@@ -68,7 +71,7 @@
 
     margin-left: 19px;
     margin-top: 14px;
-
+    text-transform: uppercase;
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
