@@ -1,3 +1,15 @@
+.horizontal {
+    margin: 0;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.vertical {
+    display: flex;
+    margin: 0;
+    border-left: 2px solid white;
+    height: 380px;
+}
 
 .box-card {
     display: flex;
