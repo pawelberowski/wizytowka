@@ -1,10 +1,4 @@
 
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .box-card {
     display: flex;
     justify-content: center;
@@ -16,7 +10,7 @@
     height: 380px;
     background: url("bcface.png");
     background-size: contain;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0 0 10px;
 }
 
 .box-info {
@@ -36,34 +30,36 @@
     height: 190px;
 
     background: #192028;
-    border-radius: 0px 10px 0px 0px;
+    border-radius: 0 10px 0 0;
 }
 
-.box-top p.first-name {
-    width: 125px;
-    height: 29px;
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin-left: 19px;
+    margin-top: 44px;
+    gap: 4px;
 
+    width: 147px;
+    height: 68px;
+}
+
+.name .first-name {
+    margin: 0;
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
-
-    color: #FFFFFF;
 }
 
-.box-top p.last-name {
-    width: 147px;
-    height: 35px;
-    margin-left: 19px;
-
+.name .last-name {
+    margin: 0;
     font-weight: 500;
     font-size: 30px;
     line-height: 35px;
-
-    color: #FFFFFF;
 }
 
-.box-top p.occupation {
+.occupation {
     width: 157px;
     height: 29px;
 
@@ -86,7 +82,7 @@
     line-height: 23px;
 
     background: #2B3944;
-    border-radius: 0px 0px 10px 0px;
+    border-radius: 0 0 10px 0;
 }
 
 .frame {
@@ -97,8 +93,6 @@
 
     display: flex;
     flex-direction: column;
-
-    padding: 0px;
     gap: 24px;
 }
 
