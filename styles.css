@@ -10,7 +10,7 @@
 .box-photo {
     width: 260px;
     height: 380px;
-    background: url("bcface.png");
+    background: url("images/bcface.png");
     background-size: contain;
     border-radius: 10px 0 0 10px;
     border-right: 2px solid white;
